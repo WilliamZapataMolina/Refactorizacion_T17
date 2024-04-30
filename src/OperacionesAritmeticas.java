@@ -40,7 +40,6 @@ public class OperacionesAritmeticas {
         return a * b;
     }
     /**
-     * 
      * @param a El dividendo
      * @param b El divisor
      * @return El cociente de la división de a entre b
