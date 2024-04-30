@@ -5,8 +5,7 @@ import java.util.Scanner;
  * Clase principal que permite al usuario realizar diversas operaciones
  * aritméticas y estadísticas
  *
- * @author William Zapata 
- * versión 2.0
+ * @author William Zapata versión 2.0
  */
 public class Main {
 
@@ -23,8 +22,10 @@ public class Main {
         System.out.println("Seleccione la operación:");
         System.out.println("1. Suma");
         System.out.println("2. Resta");
-        System.out.println("3. Media");
-        System.out.println("4. Mediana");
+        System.out.println("3. Multiplicación");
+        System.out.println("4. División");
+        System.out.println("5. Media");
+        System.out.println("6. Mediana");
 
         //Leer la opción ingresada por el usuario
         int aux = scanner.nextInt();
@@ -35,7 +36,7 @@ public class Main {
                 System.out.println("Ingrese dos números para sumar:");
                 double num1 = scanner.nextDouble();
                 double num2 = scanner.nextDouble();
-                
+
                 System.out.println("El resultado de la suma es: " + OperacionesAritmeticas.suma(num1, num2));
                 break;
             case 2:
@@ -46,6 +47,20 @@ public class Main {
                 System.out.println("El resultado de la resta es: " + OperacionesAritmeticas.resta(num3, num4));
                 break;
             case 3:
+                //Realizar la resta
+                System.out.println("Ingrese dos números para multiplicar:");
+                double num5 = scanner.nextDouble();
+                double num6 = scanner.nextDouble();
+                System.out.println("El resultado de la multiplicación es: " + OperacionesAritmeticas.multiplicacion(num5, num6));
+                break;
+            case 4:
+                //Realizar la resta
+                System.out.println("Ingrese dos números para dividir:");
+                double num7 = scanner.nextDouble();
+                double num8 = scanner.nextDouble();
+                System.out.println("El resultado de la multiplicación es: " + OperacionesAritmeticas.division(num7, num8));
+                break;
+            case 5:
                 //Realizar la media
                 System.out.println("Ingrese los números para calcular la media:");
                 int cantidad = scanner.nextInt();
@@ -58,7 +73,7 @@ public class Main {
 
                 System.out.println("La media de los números ingresados es: " + OperacionesEstadisticas.media(numeros));
                 break;
-            case 4:
+            case 6:
                 //Calcular la mediana
                 System.out.println("Ingrese los números para calcular la mediana:");
                 int cantidad1 = scanner.nextInt();
