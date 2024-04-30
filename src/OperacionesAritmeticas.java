@@ -15,8 +15,8 @@ public class OperacionesAritmeticas {
      * @param b El segundo número
      * @return La suma de los dos números
      */
-    public static double suma(double a, double b) {
-        return a + b;
+    public static double suma(double a, double b, double c) {
+        return a + b + c;
     }
 
     /**
