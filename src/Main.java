@@ -35,14 +35,15 @@ public class Main {
                 System.out.println("Ingrese dos números para sumar:");
                 double num1 = scanner.nextDouble();
                 double num2 = scanner.nextDouble();
-                System.out.println("El resultado de la suma es: " + OperacionesAritmeticas.suma(num1, num2));
+                double num3 = scanner.nextDouble();
+                System.out.println("El resultado de la suma es: " + OperacionesAritmeticas.suma(num1, num2,num3));
                 break;
             case 2:
                 //Realizar la resta
                 System.out.println("Ingrese dos números para restar:");
-                double num3 = scanner.nextDouble();
                 double num4 = scanner.nextDouble();
-                System.out.println("El resultado de la resta es: " + OperacionesAritmeticas.resta(num3, num4));
+                double num5 = scanner.nextDouble();
+                System.out.println("El resultado de la resta es: " + OperacionesAritmeticas.resta(num4, num5));
                 break;
             case 3:
                 //Realizar la media
