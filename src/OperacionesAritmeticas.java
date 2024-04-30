@@ -1,8 +1,9 @@
 
 /**
  * Clase para realizar operaciones aritméticas básicas.
+ *
  * @since 1.0
- * @author William Zapata 
+ * @author William Zapata
  * @version 2.0
  */
 public class OperacionesAritmeticas {
@@ -27,5 +28,9 @@ public class OperacionesAritmeticas {
      */
     public static double resta(double a, double b) {
         return a - b;
+    }
+
+    public static double multiplicacion(double a, double b) {
+        return a * b;
     }
 }
