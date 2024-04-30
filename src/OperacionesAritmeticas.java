@@ -29,8 +29,25 @@ public class OperacionesAritmeticas {
     public static double resta(double a, double b) {
         return a - b;
     }
+    /**
+     * Realiza la multiplicación de dos números
+     * @param a El primer número
+     * @param b El segundo número
+     * @return La multiplicación de los dos números
+     */
 
     public static double multiplicacion(double a, double b) {
         return a * b;
+    }
+    /**
+     * 
+     * @param a El dividendo
+     * @param b El divisor
+     * @return El cociente de la división de a entre b
+     * @throws ArithmeticException si el divisor (b) es 0
+     */
+
+    public static double division(double a, double b) {
+        return a / b;
     }
 }
