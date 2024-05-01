@@ -47,14 +47,14 @@ public class Main {
                 System.out.println("El resultado de la resta es: " + OperacionesAritmeticas.resta(num3, num4));
                 break;
             case 3:
-                //Realizar la resta
+                //Realizar la multiplicación
                 System.out.println("Ingrese dos números para multiplicar:");
                 double num5 = scanner.nextDouble();
                 double num6 = scanner.nextDouble();
                 System.out.println("El resultado de la multiplicación es: " + OperacionesAritmeticas.multiplicacion(num5, num6));
                 break;
             case 4:
-                //Realizar la resta
+                //Realizar la dividir
                 System.out.println("Ingrese dos números para dividir:");
                 double num7 = scanner.nextDouble();
                 double num8 = scanner.nextDouble();
