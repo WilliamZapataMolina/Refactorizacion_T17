@@ -5,8 +5,7 @@ import java.util.Scanner;
  * Clase principal que permite al usuario realizar diversas operaciones
  * aritméticas y estadísticas
  *
- * @author William Zapata 
- * versión 2.0
+ * @author William Zapata versión 2.0
  */
 public class Main {
 
@@ -45,6 +44,20 @@ public class Main {
                 System.out.println("El resultado de la resta es: " + OperacionesAritmeticas.resta(num3, num4));
                 break;
             case 3:
+                //Realizar la multiplicación
+                System.out.println("Ingrese dos números para multiplicar:");
+                double num5 = scanner.nextDouble();
+                double num6 = scanner.nextDouble();
+                System.out.println("El resultado de la multiplicación es: " + OperacionesAritmeticas.multiplicacion(num5, num6));
+                break;
+            case 4:
+                //Realizar la división
+                System.out.println("Ingrese dos números para dividir:");
+                double num7 = scanner.nextDouble();
+                double num8 = scanner.nextDouble();
+                System.out.println("El resultado de la división es: " + OperacionesAritmeticas.division(num7, num8));
+                break;
+            case 5:
                 //Realizar la media
                 System.out.println("Ingrese los números para calcular la media:");
                 int cantidad = scanner.nextInt();
@@ -57,7 +70,7 @@ public class Main {
 
                 System.out.println("La media de los números ingresados es: " + OperacionesEstadisticas.media(numeros));
                 break;
-            case 4:
+            case 6:
                 //Calcular la mediana
                 System.out.println("Ingrese los números para calcular la mediana:");
                 int cantidad1 = scanner.nextInt();
