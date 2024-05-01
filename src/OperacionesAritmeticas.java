@@ -29,7 +29,12 @@ public class OperacionesAritmeticas {
     public static double resta(double a, double b) {
         return a - b;
     }
-
+    /**
+     * Realiza la multiplicación de dos números
+     * @param a
+     * @param b
+     * @return 
+     */
     public static double multiplicacion(double a, double b) {
         return a * b;
     }
