@@ -1,4 +1,5 @@
 
+import java.lang.ArithmeticException;
 /**
  * Clase para realizar operaciones aritméticas básicas.
  *
@@ -31,14 +32,23 @@ public class OperacionesAritmeticas {
     }
     /**
      * Realiza la multiplicación de dos números
-     * @param a
-     * @param b
-     * @return 
+     * @param a El primer número a multiplicar
+     * @param b El segundo número a multiplicar
+     * @return El resultado de la multiplicación
      */
     public static double multiplicacion(double a, double b) {
         return a * b;
     }
-    public static double division(double a, double b) {
+    /**
+     * Realiza la división de dos números
+     * @param a El dividendo
+     * @param b El divisor
+     * @return ArithmeticException si el divisor es cero
+     */
+    public static double division(double a, double b) throws ArithmeticException{
+       if (b==0){
+           throw new ArithmeticException("No se puede dividir por cero");
+       }
         return a / b;
     }
 }
