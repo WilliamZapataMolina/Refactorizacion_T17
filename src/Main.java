@@ -22,8 +22,10 @@ public class Main {
         System.out.println("Seleccione la operación:");
         System.out.println("1. Suma");
         System.out.println("2. Resta");
-        System.out.println("3. Media");
-        System.out.println("4. Mediana");
+        System.out.println("3. Multiplicación");
+        System.out.println("4. División");
+        System.out.println("5. Media");
+        System.out.println("6. Mediana");
 
         //Leer la opción ingresada por el usuario
         int aux = scanner.nextInt();
